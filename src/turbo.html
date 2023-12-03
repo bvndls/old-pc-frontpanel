@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="front-panel" class="flex w-fit rounded-xl gap-2 p-1 border-black border-2 bg-[#e7ddcb]">
+        <div id="power-frame" class="w-40 h-40 border-black border-2 rounded-xl items-center justify-center flex">
+            <div id="power-btn" class="">
+                <p class="text-center tracking-widest text-xl font-mono mt-0 mb-4">POWER</p>
+                <div id="power-circle"
+                class="w-20 h-20 mb-4 rounded-full outline border-[#dbcbb3] border-8 bg-[#e9e1d2] active:brightness-[0.7] cursor-pointer">
+            </div>
+        </div>
+    </div>
+    <div id="reset-frame" class="w-40 h-40 border-black border-2 rounded-xl items-center justify-center flex">
+        <div id="reset-btn" class="">
+            <p class="text-center tracking-widest text-xl font-mono mt-0 mb-4">RESET</p>
+            <div id="reset-circle"
+            class="w-20 h-20 rounded-full outline mb-4 border-[#dbcbb3] border-8 bg-[#e9e1d2] active:brightness-[0.7] cursor-pointer">
+        </div>
+    </div>
+</div>
+<div id="turbo-frame" class="w-40 h-40 border-black border-2 rounded-xl items-center justify-center flex">
+    <div id="turbo-btn" class="">
+        <p class="text-center tracking-widest text-xl font-mono mt-0 mb-4">TURBO</p>
+        <div id="turbo-circle"
+        class="w-20 h-20 rounded-full outline mb-4 border-[#dbcbb3] border-8 bg-[#e9e1d2] active:brightness-[0.7] cursor-pointer">
+    </div>
+</div>
+</div>
+<div id="led-frame" class="w-40 h-40 border-black border-2 rounded-xl items-center justify-center flex">
+    <div id="led-cluster" class="flex flex-col gap-5">
+        <div id="power-row" class="flex flex-row items-center">
+            <div id="power-led" class="w-4 h-4 rounded-full bg-green-600 outline outline-[#ccb694] outline-4">
+            </div>
+            <p class="text-xl font-mono tracking-widest ml-4">POWER</p>        
+        </div>
+        <div id="turbo-row" class="flex flex-row items-center">
+            <div id="turbo-led" class="w-4 h-4 rounded-full bg-yellow-600 outline outline-[#ccb694] outline-4">
+            </div>
+            <p class="text-xl font-mono tracking-widest ml-4">TURBO</p>
+        </div>
+        <div id="hdd-row" class="flex flex-row items-center">
+            <div id="hdisk-led" class="w-4 h-4 rounded-full bg-red-600 outline outline-[#ccb694] outline-4">
+            </div>
+            <p class="text-xl font-mono tracking-widest ml-4">H.DISK</p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
